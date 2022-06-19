@@ -204,6 +204,7 @@ a:hover{
 .team__items{
    justify-content: center;
    flex-wrap: wrap;
+   align-items: center;
 }
 .team__item{
    text-align: center;
