@@ -130,7 +130,7 @@ a:hover{
 .contakt,
 .help{
    
-   background: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(imegas/hero4.jpg/);
+   background: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(imegas/hero4.jpg);
    max-width: 1600px;
    margin: 0 auto;
    background-size: cover;
@@ -143,7 +143,7 @@ a:hover{
    margin-bottom: 60px;
 }
 .contakt{
-   background: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(imegas/contakt.jpg/);
+   background: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(imegas/contakt.jpg);
    background-repeat: no-repeat;
    max-width: 1600px;
    margin: 0 auto;
