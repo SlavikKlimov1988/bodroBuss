@@ -34,6 +34,13 @@ body{
    background-size: contain;
 
 }
+.about__href{
+   border-bottom: 1px solid #2196F3;
+}
+.about__href :hover{
+   color: #2196F3;
+   border: #212121;
+}
 button{
    background-color: var(--color-secondary);
    color: var(--color-tertiary);
@@ -195,14 +202,16 @@ a:hover{
    padding: 0 20px;
 }
 .team__items{
+   justify-content: center;
    flex-wrap: wrap;
 }
 .team__item{
+   text-align: center;
    margin-right: 20px;
    margin-bottom: 20px;
    background-color: var(--color-tertiary);
-   width: 210px;
-   height: 260px;
+   width: 180px;
+   height: 280px;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
 }
@@ -245,10 +254,8 @@ a:hover{
 }
 .footer__item{
    margin-right: 40px;
-   background: rgba(255, 255, 255, 0.1);
    width: 44px;
    height: 44px;
-   border-radius: 50%;
 }
 .footer__contackt{
    padding-right: 50px;
@@ -480,9 +487,9 @@ a:hover{
    background-origin: border-box;
  }
  @media (max-width: 768px){
-   .contakts{
+   /* .contakts{
       display: none;
-   }
+   } */
     .mision{
        flex-direction: column;
     }
@@ -490,6 +497,48 @@ a:hover{
        flex-direction: column;
     }
     .header{
-       flex-wrap: wrap;
+       flex-wrap: nowrap;
     }
+ }
+ @media (max-width: 576px){
+   .header{
+      flex-direction: column;
+   }
+   .header-logo{
+      margin-bottom: 20px;
+   }
+   .footer__contackt {
+      padding: 0;
+  }
+  ul{
+   flex-direction: column;
+}
+.hero__titel{
+   font-size: 30px;
+}
+.navigate{
+   padding: 0;
+}
+.navigate__item a{
+   font-size: 20px;
+   
+}
+.logo{
+   margin: 0;
+}
+.contakts {
+   padding-top: 10px;
+   justify-content: flex-start;
+}
+.animate__lightSpeedInLeft {
+   display: inline-block;
+   margin: 0 0.5rem;
+ 
+   animation: bounce; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 2s; /* don't forget to set a duration! */
+ }
+
+ }
+ .team__img{
+   width:150px;
  }
