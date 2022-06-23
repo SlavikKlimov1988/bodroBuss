@@ -41,7 +41,7 @@ body{
    color: #2196F3;
    border: #212121;
 }
-button{
+button {
    background-color: var(--color-secondary);
    color: var(--color-tertiary);
    border:2px solid var(--color-secondary) ;
@@ -63,7 +63,21 @@ button:hover{
    color: var(--color-secondary);
    border: 2px solid var(--color-secondary);
 }
-
+.contact__button{
+   background-color: var(--color-secondary);
+   color: var(--color-tertiary);
+   border:2px solid var(--color-secondary) ;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   padding: 10px 30px;
+   text-align: center;
+   align-items: center;
+}
+.contact__button:hover{
+   background-color: var(--color-tertiary);
+   color: var(--color-secondary);
+   border: 2px solid var(--color-secondary);
+}
 /* list */
 ul{
    margin: 0;
