@@ -547,13 +547,13 @@ a:hover{
 /*-----------------------overley------------------*/
 .backdrop {
    position: fixed;
-   min-width: 528px;
-   min-height: 581px;
+   min-width: 322px;
+   min-height: 321px;
    left: 0px;
    top: 0px;
    background-color: #fff;
    background-size: 100% 100%;
- 
+   padding:  10px 10px;
    transition-property: background-color, opacity;
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -565,29 +565,14 @@ a:hover{
    visibility: hidden;
  }
  
- .modal {
-   position: absolute;
-   min-width: 528px;
-   min-height: 581px;
-   left: 50%;
-   top: 50%;
-   background-color: #fff;
-   transform: translate(-50%, -50%);
-   padding: 40px 40px;
- 
-   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-     0px 2px 1px rgba(0, 0, 0, 0.2);
-   border-radius: 4px;
- 
-   transition-duration: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- }
+
  .modal-btn {
    position: absolute;
    right: 8px;
    top: 8px;
-   width: 30px;
-   height: 30px;
+   margin-bottom: 10px;
+   width: 10px;
+   height: 10px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -597,12 +582,16 @@ a:hover{
    box-sizing: border-box;
    border-radius: 50%;
  }
+ .model{
+   padding: 20px 20px;
+ }
  .cklose {
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-27%, -29%);
    fill: #000000;
+   margin-bottom: 10px;
  }
  .cklose {
    fill: currentColor;
